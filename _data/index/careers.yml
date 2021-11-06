@@ -19,7 +19,7 @@
     detail: FactSet
     i18n: company_a
   desc:
-    detail: Worked on multiple cloud-based projects on the AWS cloud (desiged and implemented cloud-based data lakes, data pipelines, and ML Ops pipelines).
+    detail: Worked on multiple projects on the AWS cloud (desiged and implemented cloud-based data lakes, data pipelines, and ML Ops pipelines).
             Designed and implemented an Apache Superset environment used by multiple teams within the company.
     i18n: company_b_desc
   date:
