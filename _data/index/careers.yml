@@ -2,13 +2,28 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 - name:
+    detail: Zendesk
+    i18n: company_a
+  desc:
+    detail: Working with the Enterprise Data & Analytics team.
+    i18n: company_b_desc
+  date:
+    detail: Nov. 2021 - Present
+    i18n: company_b_date
+  job:
+    detail: Senior Data Engineer
+    i18n: company_b_job
+  icon: fa-plus-square
+
+- name:
     detail: FactSet
     i18n: company_a
   desc:
-    detail: Designing, implementing and maintaining cloud-based data lakes, data pipelines, and ML Ops pipelines.
+    detail: Worked on multiple cloud-based projects on the AWS cloud (desiged and implemented cloud-based data lakes, data pipelines, and ML Ops pipelines).
+            Designed and implemented an Apache Superset environment used by multiple teams within the company.
     i18n: company_b_desc
   date:
-    detail: Apr. 2020 - Present
+    detail: Apr. 2020 - Nov. 2021
     i18n: company_b_date
   job:
     detail: Data Engineer
