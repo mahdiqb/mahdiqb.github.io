@@ -7,5 +7,5 @@ desc: "A detailed guide to help you navigate the modern data stack and build you
 keywords: "data,platform,blog,tech,dbt"
 categories: [big-data]
 tags: [Modern Data Stack, Big Data, BigQuery, dbt, Tech]
-icon: icon-gcp
+icon: icon-google-developers
 ---
