@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Hadoop Ecosystem, SQL, Apache Spark, Python, Distributed Systems, Data Visualization, Apache Airflow, Cloud platforms (AWS, GCP)
+aspects: Hadoop Ecosystem, SQL, Apache Spark, Python, Distributed Systems, Data Visualization, Apache Airflow, Cloud platforms (AWS/GCP)
 percentage: 80, 85, 85, 80, 80, 78, 78, 85
