@@ -1,10 +1,11 @@
 # projects section data
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Setting Up a Big Data Pipeline
+- name: Author of End-to-End Batch Data Pipeline with Spark
   i18n: jalpc
+  url: https://www.manning.com/liveprojectseries/batch-data-pipeline-with-spark
   gh_user: mahdiqb
-  img: /static/assets/img/landing/1000mercis.png
-  desc: Revamped the data architecture of the product EmailAttitude through the implementation of a Big Data pipeline using Apache Spark, Apache Airflow, and Apache Zeppelin.
+  img: /static/assets/img/landing/manning.jpg
+  desc: I authored a four-project series for Manning Publications on building an end-to-end data pipeline. The series discusses distributed architectures and relies on technologies like Apache Spark, Delta Lake, and Apache Superset.
 
 - name: Celer, a traffic and navigation app
   i18n: cpython
