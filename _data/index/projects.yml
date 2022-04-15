@@ -5,7 +5,7 @@
   url: https://www.manning.com/liveprojectseries/batch-data-pipeline-with-spark
   gh_user: mahdiqb
   img: /static/assets/img/landing/manning.jpg
-  desc: I authored a four-project series for Manning Publications on building an end-to-end data pipeline. The series discusses technologies like Apache Spark, Delta Lake, and Apache Superset.
+  desc: I authored a four-project series for Manning Publications on building an end-to-end data pipeline. The series discusses technologies like Spark, Delta Lake, and Superset.
 
 - name: Celer, a traffic and navigation app
   i18n: cpython
