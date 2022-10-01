@@ -5,14 +5,17 @@
     detail: Zendesk
     i18n: company_a
   desc:
-    detail: Working with the Enterprise Data & Analytics team.
-    i18n: company_b_desc
+    detail: Building data products within the Enterprise Data & Analytics org. 
+            (Offering internal teams access to product data at scale, 
+            contributing to the design and implementation of data domains,
+            enhancing the existing data stack)
+    i18n: company_a_desc
   date:
     detail: Nov. 2021 - Present
-    i18n: company_b_date
+    i18n: company_a_date
   job:
-    detail: Senior Data Engineer
-    i18n: company_b_job
+    detail: Senior Data Engineer (promoted to Staff Engineer)
+    i18n: company_a_job
   icon: fa-plus-square
 
 - name:
