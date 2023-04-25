@@ -5,16 +5,30 @@
     detail: Zendesk
     i18n: company_a
   desc:
+    detail: Working on Zendesk's core data platform.
+    i18n: company_a_desc
+  date:
+    detail: Oct. 2022 - Present
+    i18n: company_a_date
+  job:
+    detail: Staff Data Engineer (promoted)
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: Zendesk
+    i18n: company_a
+  desc:
     detail: Building data products within the Enterprise Data & Analytics org. 
             (Offering internal teams access to product data at scale, 
             contributing to the design and implementation of data domains,
             enhancing the existing data stack)
     i18n: company_a_desc
   date:
-    detail: Nov. 2021 - Present
+    detail: Nov. 2021 - Oct. 2022
     i18n: company_a_date
   job:
-    detail: Senior Data Engineer (promoted to Staff Engineer)
+    detail: Senior Data Engineer
     i18n: company_a_job
   icon: fa-plus-square
 
