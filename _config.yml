@@ -16,7 +16,7 @@ author:
   linkedin_id:  mahdikarabiben 
   facebook_username: mahdi.qarabiben  
   twitter_username: MahdiKarabiben
-  email: mahdikarabibene@yahoo.com 
+  email: mahdikarabibene@gmail.com 
   cv: https://mahdiqb.github.io/cv.pdf  
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
@@ -25,7 +25,7 @@ author:
   skill_icon2:
    - name: icon-python
    - name: icon-database
-  desc: Hi there 👋 I'm a data engineer based in Paris. I'm very passionate about open-source projects and enjoy building data pipelines, datalakes, and data services - basically, I enjoy working with data and designing scalable solutions.
+  desc: Hi there 👋 I'm a data engineer based in Paris with more than six years of experience designing and building petabyte-scale data platforms. I'm very passionate about open-source projects and enjoy working with data and designing scalable solutions.
 
 # comment
 # disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
