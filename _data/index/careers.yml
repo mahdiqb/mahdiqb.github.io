@@ -2,13 +2,27 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 - name:
+    detail: Sifflet
+    i18n: company_b
+  desc:
+    detail: Focusing on integrating Sifflet with tools across the data stack.
+    i18n: company_b_desc
+  date:
+    detail: Apr. 2024 - Present
+    i18n: company_b_date
+  job:
+    detail: Senior Product Manager
+    i18n: company_b_job
+  icon: fa-plus-square
+
+- name:
     detail: Zendesk
     i18n: company_a
   desc:
-    detail: Working on Zendesk's core data platform.
+    detail: Led key initiatives (like data quality and data movement) as part of Zendesk's core data platform.
     i18n: company_a_desc
   date:
-    detail: Oct. 2022 - Present
+    detail: Oct. 2022 - Apr. 2024
     i18n: company_a_date
   job:
     detail: Staff Data Engineer (promoted)
