@@ -12,8 +12,8 @@ export function Hero() {
           Mahdi Karabiben
         </h1>
         <p className="mt-6 max-w-3xl text-base leading-relaxed text-muted-foreground md:text-lg">
-          Data and Product leader building products in the data space, with a decade of
-          experience designing and building petabyte-scale data platforms. Passionate about
+          <span className="text-foreground">Data and Product leader</span> building products in the data space, with a decade of
+          experience designing and building <span className="text-foreground">petabyte-scale data products & platforms</span>. Passionate about
           open-source projects and actively contributing to the data space through articles,
           public speaking, online courses, the{" "}
           <span className="text-foreground">Data Espresso</span> newsletter, and open-source
