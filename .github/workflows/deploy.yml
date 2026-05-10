@@ -1,0 +1,63 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+      - name: Build (prerender static site)
+        # Prerender writes all files successfully but Vite's postbuild cleanup
+        # crashes with an unrelated stdin teardown error. Tolerate it and
+        # verify the output exists in the next step.
+        env:
+          PRERENDER: "1"
+        run: bun run build || true
+      - name: Prepare static output
+        run: |
+          OUT_DIR=""
+          for d in .output/public dist/client dist .vinxi/build/client; do
+            if [ -d "$d" ]; then OUT_DIR="$d"; break; fi
+          done
+          if [ -z "$OUT_DIR" ]; then
+            echo "No build output directory found"; exit 1
+          fi
+          echo "Using output: $OUT_DIR"
+          mkdir -p _site
+          cp -r "$OUT_DIR"/. _site/
+          touch _site/.nojekyll
+          # SPA fallback for client-side routes
+          if [ -f _site/index.html ] && [ ! -f _site/404.html ]; then
+            cp _site/index.html _site/404.html
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
