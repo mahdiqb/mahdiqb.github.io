@@ -135,7 +135,7 @@ export const publications: Publication[] = [
     title: "Writing Design Docs for Data Pipelines",
     outlet: "Towards Data Science",
     year: "2023",
-    url: "https://towardsdatascience.com/writing-design-docs-for-data-pipelines-d49550f95580",
+    url: "https://medium.com/data-science/writing-design-docs-for-data-pipelines-d49550f95580",
     description:
       "The what, why, and how of design docs for data components — and why they matter.",
   },
