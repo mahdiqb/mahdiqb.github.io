@@ -7,7 +7,7 @@ export function Experience() {
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-[1fr_auto] md:items-start">
         <div>
           <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
-            // experience
+            // recent experience
           </p>
           <ul className="mt-6 divide-y divide-slate-800 border-y border-slate-800">
             {roles.map((r) => (
