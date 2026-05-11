@@ -43,7 +43,12 @@ jobs:
           echo "Using output: $OUT_DIR"
           mkdir -p _site
           cp -r "$OUT_DIR"/. _site/
+          # Safety net: ensure all public/ assets land in the artifact
+          if [ -d public ]; then
+            cp -r public/. _site/
+          fi
           touch _site/.nojekyll
+          ls -la _site/resume.pdf || (echo "resume.pdf missing from artifact" && exit 1)
           # SPA fallback for client-side routes
           if [ -f _site/index.html ] && [ ! -f _site/404.html ]; then
             cp _site/index.html _site/404.html
